@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *myMultiplier;
 @property (weak, nonatomic) IBOutlet UITextField *myNumber;
 @property (weak, nonatomic) IBOutlet UILabel *myAnswer;
+@property (weak, nonatomic) IBOutlet UISlider *mySlider;
 
 @end
 
@@ -21,6 +22,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)mySlider:(UISlider *)sender {
+    int sliderInt = self.mySlider.value;
+    self.myMultiplier.text = [NSString stringWithFormat:@"%d", sliderInt];
 }
 
 
