@@ -82,6 +82,7 @@
 		507A7A8E19C3683A00CB9866 = {
 			isa = PBXGroup;
 			children = (
+				507A7AAC19C3683A00CB9866 /* Main.storyboard */,
 				507A7AA019C3683A00CB9866 /* NewMultiply */,
 				507A7ABF19C3683A00CB9866 /* NewMultiplyTests */,
 				507A7A9919C3683A00CB9866 /* Frameworks */,
@@ -112,9 +113,6 @@
 		507A7AA019C3683A00CB9866 /* NewMultiply */ = {
 			isa = PBXGroup;
 			children = (
-				507A7AA919C3683A00CB9866 /* AppDelegate.h */,
-				507A7AAA19C3683A00CB9866 /* AppDelegate.m */,
-				507A7AAC19C3683A00CB9866 /* Main.storyboard */,
 				507A7AAF19C3683A00CB9866 /* ViewController.h */,
 				507A7AB019C3683A00CB9866 /* ViewController.m */,
 				507A7AB219C3683A00CB9866 /* Images.xcassets */,
@@ -126,6 +124,8 @@
 		507A7AA119C3683A00CB9866 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				507A7AA919C3683A00CB9866 /* AppDelegate.h */,
+				507A7AAA19C3683A00CB9866 /* AppDelegate.m */,
 				507A7AA219C3683A00CB9866 /* NewMultiply-Info.plist */,
 				507A7AA319C3683A00CB9866 /* InfoPlist.strings */,
 				507A7AA619C3683A00CB9866 /* main.m */,
@@ -288,6 +288,7 @@
 				507A7AAD19C3683A00CB9866 /* Base */,
 			);
 			name = Main.storyboard;
+			path = NewMultiply;
 			sourceTree = "<group>";
 		};
 		507A7AC219C3683A00CB9866 /* InfoPlist.strings */ = {
